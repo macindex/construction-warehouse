@@ -9,10 +9,10 @@ import { ProductService } from './../product.service';
   styleUrls: ['./product-create.component.css']
 })
 export class ProductCreateComponent implements OnInit {
-  //   product: Product = {
-  //   name: '',
-  //   price: null
-  // }
+    product: Product = {
+    name: 'Tijolo',
+    telefone: 81988993131
+  }
 
   constructor(private productService: ProductService, private router: Router){ }
 
