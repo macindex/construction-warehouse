@@ -22,6 +22,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
 
+import '@angular/forms';
+import '@angular/material/form-field';
+import '@angular/material/input';
+
 @NgModule({
   declarations: [
     AppComponent,
